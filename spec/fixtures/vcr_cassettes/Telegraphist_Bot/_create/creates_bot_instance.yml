@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.telegram.org/botsample-token/getMe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Thu, 08 Oct 2015 04:41:37 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"result":{"id":130797810,"first_name":"TelegraphistTestBot","username":"GiveMeNameBot"}}'
+    http_version: 
+  recorded_at: Thu, 08 Oct 2015 04:41:37 GMT
+recorded_with: VCR 2.9.3

@@ -10,3 +10,4 @@
 
 /.idea
 /spec/test_api_key.txt
+/*.gem
